@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Fraunces', 'Roboto'; /* Use the imported font */
+    background-color: rgb(113, 113, 187);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 98vh;
+}
+
+.container {
+    width: 80vw; /* 80% of the viewport width */
+    max-width: 1600px; 
+    height: 80vh; /* 80% of the viewport height */
+    max-height: 1200px; 
+    min-height: 400px; 
+    padding: 20px; /* Some padding for spacing */
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    gap: 5px;
+}
+
+/* Mobile Styles */
+@media (max-width: 1024px) {
+    body {
+        padding-top: 8px;
+    }
+    
+    .container {
+        width: 95vw;
+        height: 95vh;
+        grid-template-columns: repeat(3, 1fr); /* Change to 2 columns */
+        padding: 0px; /* Reduce padding */
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 90vw;
+        height: 90vh;
+    }
+}
