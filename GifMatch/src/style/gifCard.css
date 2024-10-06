@@ -90,10 +90,10 @@
 @media (max-width: 480px) {
     .gif-card {
         max-width: 140px;
-        min-height: 75px;
+        min-height: 80px;
     }
     
     .gif-img {
-        height: 75px
+        height: 80px
     }
 }
