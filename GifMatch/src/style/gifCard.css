@@ -106,7 +106,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .gif-card {
         max-width: 140px;
         min-height: 80px;
