@@ -79,11 +79,11 @@
 @media (max-width: 700px) {
     .gif-card {
         max-width: 140px;
-        min-height: 65px;
+        min-height: 55px;
     }
     
     .gif-img {
-        height: 65px; /* Reduce image height on mobile */
+        height: 55px; 
     }
 }
 
@@ -94,6 +94,6 @@
     }
     
     .gif-img {
-        height: 90px; /* Reduce image height on mobile */
+        height: 90px; /
     }
 }
