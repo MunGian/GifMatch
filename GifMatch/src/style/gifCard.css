@@ -87,7 +87,7 @@
     }
 
     .gif-card-back img {
-        width: 100px;
+        width: 110px;
     }
 }
 
@@ -102,7 +102,7 @@
     }
 
     .gif-card-back img {
-        width: 50px;
+        width: 64px;
     }
 }
 
@@ -113,7 +113,7 @@
     }
     
     .gif-img {
-        height: 80px
+        height: 80px;
     }
 
     .gif-card-back img {
