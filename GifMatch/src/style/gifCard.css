@@ -72,13 +72,13 @@
         margin: 5px; /* Center cards with auto margins */
     }
     .gif-img {
-        height: 150px;
+        height: 130px;
     }
 }
 
 @media (max-width: 700px) {
     .gif-card {
-        max-width: 140px;
+        max-width: 130px;
         min-height: 75px;
     }
     
