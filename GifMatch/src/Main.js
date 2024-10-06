@@ -84,7 +84,7 @@ export default function Main() {
               : gif
           );
           setGifCards(updatedGifData);
-        }, 1000);
+        }, 1700);
       }
       setFlippedCards([]);
     }
