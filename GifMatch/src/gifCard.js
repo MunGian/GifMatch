@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./style/gifCard.css";
+import icon from "./assets/icon.png";
 
 export default function GifCard(props) {
   const [isFlipping, setIsFlipping] = useState(false); // State to manage delay
@@ -39,7 +40,7 @@ export default function GifCard(props) {
           </div>
         ) : (
           <div className="gif-card-back">
-            
+            <img src={icon} alt="icon" className="gif-img" />
           </div>
         )}
       </div>
