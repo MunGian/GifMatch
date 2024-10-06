@@ -81,7 +81,7 @@ body {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 700px) {
     .twinkling-text {
         max-width: 100%; 
         padding: 0 30px; 

@@ -76,11 +76,21 @@
     }
 }
 
+@media (max-width: 700px) {
+    .gif-card {
+        max-width: 140px;
+        min-height: 65px;
+    }
+    
+    .gif-img {
+        height: 65px; /* Reduce image height on mobile */
+    }
+}
+
 @media (max-width: 480px) {
     .gif-card {
-        max-width: 100%; /* Make cards full width on small screens */
+        max-width: 140px;
         min-height: 90px;
-        margin: 5px; /* Remove horizontal margins */
     }
     
     .gif-img {
