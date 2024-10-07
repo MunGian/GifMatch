@@ -11,7 +11,7 @@ export default function Main() {
   const [flippedCards, setFlippedCards] = useState([]); // array for checking the current 2 flipped cards
   const [matchedCards, setMatchedCards] = useState([]); // array for storing matched pair after checking (2 flipped cards are same)
   const [showConfetti, setShowConfetti] = useState(false); // useState for showing confetti after matching all the cards :>
-  const [isClickable, setIsClickable] = useState(true);  // Add this state
+  const [isClickable, setIsClickable] = useState(true);  // useState for disabling clicks when 2 cards are flipped
 
   // Function to duplicate each item in gifCardData and shuffle the result
   function duplicateAndShuffle(data) {
@@ -21,10 +21,11 @@ export default function Main() {
     // Select the first 9 gifdata
     const selectedGifData = shuffledData.slice(0, 9); // Get the first 9 gifdata
 
+    // Duplicate each card and assign a new uniqueId to the duplicated copy
     const duplicatedData = selectedGifData.flatMap((item) => [
       item,
       { ...item, uniqueId: nanoid() },
-    ]); // Duplicate each card and assign a new uniqueId to the duplicated copy
+    ]); 
     return duplicatedData.sort(() => Math.random() - 0.5); // Shuffle the array
   }
 
