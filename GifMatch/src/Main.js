@@ -33,7 +33,7 @@ export default function Main() {
   function handleFlip(uniqueId, id) {
 
     // Ignore click when waiting for mismatched cards to flip back
-    // after the 1.4s delay (setTimeOut())
+    // after the 1.2s delay (setTimeOut())
     if (!isClickable) return;  
 
     // Ignore click if the same card is clicked twice
@@ -87,7 +87,7 @@ export default function Main() {
       if (flippedCards[0].id === flippedCards[1].id) {
         setMatchedCards([...matchedCards, flippedCards[0], flippedCards[1]]);
       } else {
-        setIsClickable(false);  // Disable clicks
+        setIsClickable(false);  // Disable clicks on other cards at the moment
         // Flip the two cards back after 1 second if they are not matched
         setTimeout(() => {
           const updatedGifData = gifCards.map((gif) =>
