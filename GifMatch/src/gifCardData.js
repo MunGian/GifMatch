@@ -1,154 +1,148 @@
-import{nanoid} from 'nanoid';
+import { nanoid } from "nanoid";
 
 export default [
-    {
-        uniqueId: nanoid(),
-        id: 1,
-        url: "https://media.giphy.com/media/fBEMsUeGHdpsClFsxM/giphy.gif",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 2,
-        url: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzFmM211cXgyeXUyOGMyZXQwNjNoNHcwYTkweDNhczEwNWlua2Q4YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WO9eUCsPtqsm5mJIpV/giphy.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 3,
-        url: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExczIyMXA2MHF6OG8xNnVubXFqaXlmejJsOHNzamo5ejgydXNuYXJhcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iF1zGTW6kI0R9Ex5T4/giphy.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 4,
-        url: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjkwbWhnYzNpaHM1ZjJ0MTdtbzBqa3NmemM4c3J3enlvZWRhbnZmcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vA0XGmUXKG8ipt9Hsl/giphy.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 5,
-        url: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3RpNWFnMWZoZ2Z5ODZrYno2cnl0eThkNnBteGI1Zml3OHBoeDVvZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XcLblFxDaB33esLgya/giphy.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 6,
-        url: "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2c4YXlkaGhtdzZtcDNicnd0aGw2dGtiMG05OGFzOTAxNjdpbmt3MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ie9XYbEyw5YrP1J5QB/giphy.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 7,
-        url: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3FhNmRsNzU4cHp2YjJicTh2a3pzOTV0M20zOG9jdnAwNXJpbXBtdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Nn73VXklzXEpq/giphy.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 8,
-        url: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDU1M282b2xlZTMydzc4aG5vODhuOXJmdmY2YmluaXU4NnBwcHl3dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Cjxwm5WqBdsg8/200.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 9,
-        url: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExanB4b2MyZGMzbXpjYzM3cGh1MmN3bmFheW4wcmw1YzlmbDF4N2VzMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/10SE39xjwZDvMc/giphy.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 10,
-        url: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWd1eTN6aHRlMTk1NjhyYXdhZzJpbmoxM3NwcTRobmNrNWpsdThqciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aeM2gVUiP4WZ2/200.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 11,
-        url: "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXM0YTdheDNveHl6emhhdHIyZjFlZmUwazl4b2x6c3VqN25yeTlzdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nn8uzAnxuchf2OWXNy/giphy.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 12,
-        url: "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHRqeHNlcmsyZTJuaGxvbjA2bGZ2ZGUzb3V1anF6eW96bzA1azQwbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dIBUemhk5jPd9rfbHf/giphy.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 13,
-        url: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmxoZG1sb2E1aTMyMDA1NWh6OTczM3I4aGZjajVodXJjd2prZ2VzaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9iGSZL3106TpC/giphy.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 14,
-        url: "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzhvZnhpeDZxdGcyZjd2c281bWNvdnZqa3BjYWM0ZjhsZm9sMmhsNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/39V1MUIJTDnNK/200.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 15,
-        url: "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWh0Z2R4YTM4ZXhwajQxZWI2bjhscGx5YXRsd204ejh2eTA4dnMyciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KuPy0TGUtEbR0aUre6/giphy.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 16,
-        url: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTk1ZTJjeDlydWdqeDNqbDZ1YnRmcG1rejVuYWlhamg0bHQ0bzF6eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/52L4VRLgI8gOXbJjmx/giphy.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 17,
-        url: "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMThoNDl4c2xzNWdmdmR3em45andkaHYzaWhnZ2dud2Yya3Y3ZXFsNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g90DnfuymEPCqRUN8B/giphy.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 18,
-        url: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDM0ZWZ3bW1jZGZyZWU0ajd5dTBpYnFmYWN5ZHE0MmtvcXNhMGo3MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2xUfwmis1bpwA/giphy.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 19,
-        url: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeng1Nnk2ZmFiem0yY2JmeDdhZnoyNDRwbDVmMmd4M3ZkNnh6ZDV2aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6P79a93qnI8s8/giphy.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 20,
-        url: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGF0Y2lmaHZnYWVhOTh0czZxc2F5bGh1a3hic3gwaTdua3d4Y2prciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/62TTKM9F5B5ni/200.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 21,
-        url: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnljanVkazc1MHNxYTFid2Y2N2hkejhsb3E2MjQ0OHlzM2JrMGp5ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/13IIWIgyWnpSy4/giphy.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 22,
-        url: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTN4MTc0eHo3c28ycGVydG0xM2g1NmJndDFuem1manZtZG03cWJoaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Wn0wjrSzcKPkX4xkkk/giphy.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 23,
-        url: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHJleHkzcmx4eTd5NzdyZWpmejgyN3AyOGl5eHdiazV5Mmp4cXg1bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Z9ErMP3gYYlcAadEGd/giphy.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 24,
-        url: "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDk4NnVuMzZsMDQ5MWh2M3ZyY2htNms0ZjN3cWc0eXZuYWR4ajM3ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ltIFdjNAasOwVvKhvx/giphy.webp",
-        isFlipped: false
-    },
-    {
-        uniqueId: nanoid(),
-        id: 25,
-        url: "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmNtY2J2eWxxaTlyZ2kxM2c5bXZ3ZmdvcGV1YWxoeG5oZzdoaXV0ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/akx4VVTQMiKBy/giphy.webp",
-        isFlipped: false
-    }
+  {
+    uniqueId: nanoid(),
+    id: 1,
+    url: "https://media1.tenor.com/m/yO7d3c3MOTAAAAAC/%E7%86%8A%E5%87%BA%E6%B2%A1-boonie-bears.gif",
+    isFlipped: false,
+  },
+  {
+    uniqueId: nanoid(),
+    id: 2,
+    url: "https://media1.tenor.com/m/deGAzGlLcbYAAAAC/guang-tou-qiang-boonie-bear.gif",
+    isFlipped: false,
+  },
+  {
+    uniqueId: nanoid(),
+    id: 3,
+    url: "https://media1.tenor.com/m/nWUdGfY5NqoAAAAC/bear-please.gif",
+    isFlipped: false,
+  },
+  {
+    uniqueId: nanoid(),
+    id: 4,
+    url: "https://media1.tenor.com/m/_xZdfxSnxZkAAAAd/boonie-bears-chinese-cartoon.gif",
+    isFlipped: false,
+  },
+  {
+    uniqueId: nanoid(),
+    id: 5,
+    url: "https://media1.tenor.com/m/S68h903yrEwAAAAC/%E7%86%8A%E5%87%BA%E6%B2%A1-boonie-bears.gif",
+    isFlipped: false,
+  },
+  {
+    uniqueId: nanoid(),
+    id: 6,
+    url: "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm5kZmszbG44MjFrZXljNzRoeGdtaHRudjQzbjlveXM5cHNkYTdtbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/YxQkboz9DvgjcrAWQt/giphy.gif",
+    isFlipped: false,
+  },
+  {
+    uniqueId: nanoid(),
+    id: 7,
+    url: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHlob3dzYmQ1aTlwMHdoZXNoanh2cWZiYnhnemFmd204ZDcxMzdkZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fCzYidTKzio4duEqUn/giphy.gif",
+    isFlipped: false,
+  },
+  {
+    uniqueId: nanoid(),
+    id: 8,
+    url: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWNybGZmdzZid2ZqMmJvN3dweGZmcWVqODc5NW1tMmxpaWNvbXN0bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/stS7C4ZINZvIJycwya/giphy.gif",
+    isFlipped: false,
+  },
+  {
+    uniqueId: nanoid(),
+    id: 9,
+    url: "https://media1.tenor.com/m/mJQzRUjN1E0AAAAd/boonie-bears-bramble.gif",
+    isFlipped: false,
+  },
+  {
+    uniqueId: nanoid(),
+    id: 10,
+    url: "https://d.furaffinity.net/art/yingcartoonman/1647499348/1647499348.yingcartoonman_4d980bc5-41c1-4a06-9109-7d3bdd946c8e.gif",
+    isFlipped: false,
+  },
+  //   {
+  //     uniqueId: nanoid(),
+  //     id: 11,
+  //     url: "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/62068a6817aee8Xs.gif",
+  //     isFlipped: false,
+  //   },
+  {
+    uniqueId: nanoid(),
+    id: 12,
+    url: "https://liangcang-material.alicdn.com/prod/upload/997ff942a97243ea84db4608ece959d6.webp.gif",
+    isFlipped: false,
+  },
+  {
+    uniqueId: nanoid(),
+    id: 13,
+    url: "https://i.makeagif.com/media/2-29-2024/xnXTfZ.gif",
+    isFlipped: false,
+  },
+  {
+    uniqueId: nanoid(),
+    id: 14,
+    url: "https://s1.aigei.com/src/img/gif/31/31c0d0146f2a4e4ca1f119a6786c3cb8.gif?imageMogr2/auto-orient/thumbnail/!282x282r/gravity/Center/crop/282x282/quality/85/%7CimageView2/2/w/282&e=2051020800&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:VWUJ2Tb9HamDCIZ0ho4RlXuxqWw=",
+    isFlipped: false,
+  },
+  //   {
+  //     uniqueId: nanoid(),
+  //     id: 15,
+  //     url: "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/6879323dbeb65y0C.gif",
+  //     isFlipped: false,
+  //   },
+  {
+    uniqueId: nanoid(),
+    id: 16,
+    url: "https://static.jstv.com/gather/hl_dp/20201221/99/2963665104304325587.gif",
+    isFlipped: false,
+  },
+  {
+    uniqueId: nanoid(),
+    id: 17,
+    url: "https://pic1.zhimg.com/v2-d07aa66a4bb9de538cbf1edc1a4a2366_1440w.gif",
+    isFlipped: false,
+  },
+  {
+    uniqueId: nanoid(),
+    id: 18,
+    url: "https://media.tenor.com/kVD7SxrRfBwAAAAM/%E7%86%8A%E5%87%BA%E6%B2%A1-boonie-bears.gif",
+    isFlipped: false,
+  },
+  {
+    uniqueId: nanoid(),
+    id: 19,
+    url: "https://media1.tenor.com/m/sPd5RVM6UWYAAAAC/%E7%86%8A%E5%87%BA%E6%B2%A1-boonie-bears.gif",
+    isFlipped: false,
+  },
+  {
+    uniqueId: nanoid(),
+    id: 20,
+    url: "https://media1.tenor.com/m/NUMIlucPEYMAAAAd/%E7%86%8A%E5%87%BA%E6%B2%A1-double-roar.gif",
+    isFlipped: false,
+  },
+  {
+    uniqueId: nanoid(),
+    id: 21,
+    url: "https://media1.tenor.com/m/vkvZ5vsSVEIAAAAC/%E7%86%8A%E5%87%BA%E6%B2%A1-boonie-bears.gif",
+    isFlipped: false,
+  },
+  {
+    uniqueId: nanoid(),
+    id: 22,
+    url: "https://media1.tenor.com/m/O3mZ8oexzBIAAAAC/boonie-bears-jumpscare.gif",
+    isFlipped: false,
+  },
+  {
+    uniqueId: nanoid(),
+    id: 23,
+    url: "https://media1.tenor.com/m/uHcLR9UorGwAAAAC/%E7%86%8A%E5%87%BA%E6%B2%A1-boonie-bears.gif",
+    isFlipped: false,
+  },
+  {
+    uniqueId: nanoid(),
+    id: 24,
+    url: "https://media.tenor.com/jpbpA27ayv4AAAAi/bobo-bear.gif",
+    isFlipped: false,
+  },
 ];

@@ -11,7 +11,7 @@ export default function Main() {
   const [flippedCards, setFlippedCards] = useState([]); // array for checking the current 2 flipped cards
   const [matchedCards, setMatchedCards] = useState([]); // array for storing matched pair after checking (2 flipped cards are same)
   const [showConfetti, setShowConfetti] = useState(false); // useState for showing confetti after matching all the cards :>
-  const [isClickable, setIsClickable] = useState(true);  // useState for disabling clicks when 2 cards are flipped
+  const [isClickable, setIsClickable] = useState(true); // useState for disabling clicks when 2 cards are flipped
 
   // Function to duplicate each item in gifCardData and shuffle the result
   function duplicateAndShuffle(data) {
@@ -25,21 +25,20 @@ export default function Main() {
     const duplicatedData = selectedGifData.flatMap((item) => [
       item,
       { ...item, uniqueId: nanoid() },
-    ]); 
+    ]);
     return duplicatedData.sort(() => Math.random() - 0.5); // Shuffle the array
   }
 
   // Function to handle click on the card
   function handleFlip(uniqueId, id) {
-
     // Ignore click when waiting for mismatched cards to flip back
     // after the 1.2s delay (setTimeOut())
-    if (!isClickable) return;  
+    if (!isClickable) return;
 
     // Ignore click if the same card is clicked twice
     if (flippedCards.length === 1 && flippedCards[0].uniqueId === uniqueId) {
       return; // Do nothing if the same card is clicked
-    }  
+    }
 
     // Check if the card is already matched
     // basically means if the card is opened and matched ady,
@@ -87,7 +86,7 @@ export default function Main() {
       if (flippedCards[0].id === flippedCards[1].id) {
         setMatchedCards([...matchedCards, flippedCards[0], flippedCards[1]]);
       } else {
-        setIsClickable(false);  // Disable clicks on other cards at the moment
+        setIsClickable(false); // Disable clicks on other cards at the moment
         // Flip the two cards back after 1 second if they are not matched
         setTimeout(() => {
           const updatedGifData = gifCards.map((gif) =>
@@ -97,7 +96,7 @@ export default function Main() {
               : gif
           );
           setGifCards(updatedGifData);
-          setIsClickable(true);  // Re-enable clicks
+          setIsClickable(true); // Re-enable clicks
         }, 1200);
       }
       setFlippedCards([]);
@@ -125,7 +124,7 @@ export default function Main() {
 
   return (
     <div>
-      <NavBar handleReset={handleReset}/>
+      <NavBar handleReset={handleReset} />
       <div className="container">
         {gifDisplay}
         {showConfetti && <Confetti />}
